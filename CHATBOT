@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png);
+        margin: 0;
+        padding: 0;
+        height: 100vh; /* Full viewport height */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between; /* Space out the elements evenly */
+    }
+    .div1 {
+        height: 10%; /* Adjusted height */
+        width: 100%; /* Full width */
+        background-color: #323f4b;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .div2, .div3 {
+        height: 10%; /* Consistent height to fit all elements */
+        width: 100%;
+        border-radius: 20px; /* Reduced border radius */
+        padding: 0 0px; /* Consistent padding */
+        display: flex;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: Roboto;
+        font-size:large;
+    }
+    .div2 {
+        background-color: #47a3f3;
+        text-align: left;
+        
+        
+
+    }
+    .div3 {
+        background-color: #52606d;
+        text-align: right;
+        
+    }
+</style>
+<body>
+    <div class="div1">
+        <h2>MED GUY</h2>
+    </div>
+
+    <div class="div3">
+        <h4>HEY!NAME PLEASE!</h4>
+    </div>
+    <div class="div2">
+        <h4>SATHIKA BEGUM M</h4>
+    </div>
+    <div class="div3">
+        <h4>HOW CAN I ASSIST YOU?</h4>
+    </div>
+    <div class="div2">
+        <h4>I NEED A CALL ON CONSULTANCE TO MR JANAGI MAM</h4>
+    </div>
+    <div class="div3">
+        <h4>OK LET ME CHECK HER AVAILABILITY!..</h4>
+    </div>
+    <div class="div2">
+        <h4>SHE IS AVAIL AT 4.00PM TODAY</h4>
+    </div>
+    <div class="div3">
+        <h4>THANK YOU</h4>
+    </div>
+    
+</body>
+</html>
